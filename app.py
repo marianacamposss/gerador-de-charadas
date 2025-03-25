@@ -28,7 +28,7 @@ charadas = [
 
 @app.route('/')
 def index():
-    return 'API DAS CHARADAS TA OK'
+    return ('index.html')
 
 @app.route('/charadas', methods=['GET'])
 def listacharadas():
